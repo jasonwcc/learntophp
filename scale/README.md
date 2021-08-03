@@ -20,5 +20,16 @@ git clone https://github.com/jasonwcc/learntophp
 cd learntophp/scale
 
 php index.php
-## error saying index not found, as the index meant to reveal which pod on cluster it ran
-## nevertheless the script continue to show IP and version of the host
+
+NOTE: error saying index not found, as the index meant to reveal which pod on cluster it ran. Nevertheless the script continue to show IP and version of the host
+
+# Now we scale up by 1 more pod
+oc get pod
+
+oc scale --replicas=2 dc/scale1
+
+oc get pods
+
+curl <route-hostname>
+
+NOTE: Repeate the curl to see msg showing different pod and ip
