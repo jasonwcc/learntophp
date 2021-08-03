@@ -20,5 +20,5 @@ git clone https://github.com/jasonwcc/learntophp
 cd learntophp/scale
 
 php index.php
-# error saying index not found, as the index meant to reveal which pod on cluster it ran
-# nevertheless the script continue to show IP and version of the host
+## error saying index not found, as the index meant to reveal which pod on cluster it ran
+## nevertheless the script continue to show IP and version of the host
